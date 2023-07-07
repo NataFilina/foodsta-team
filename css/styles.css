@@ -1,0 +1,112 @@
+/* common styles */
+body {
+    background-color: #FFE550;
+}
+ul, ol {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+h1, h2, h3, p {
+    margin: 0;
+}
+
+img {
+    display: block;
+}
+
+.container {
+    width: 1280px;
+    padding: 99px 16px 79px 16px;
+    margin: 0 auto;
+}
+.offerings-container {
+    display: flex;
+    align-items: center;
+    gap: 160px;
+}
+.container-inform {
+
+}
+.offerings {
+}
+.offerings-image {
+}
+.offerings-title {
+    color: #2C2C2C;
+font-family: Roboto;
+font-size: 42px;
+line-height: 120%;
+
+display: block;
+max-width: 526px;
+margin-bottom: 20px;
+}
+.offerings-text {
+    color: #2C2C2C;
+font-family: Roboto;
+line-height: 150%;
+
+display: block;
+max-width: 526px;
+margin-bottom: 40px;
+}
+.offerings-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 67px;
+
+    margin-bottom: 32px;
+}
+.offerings-item {
+   
+}
+.svg-container {
+      width: 48px;
+height: 48px;
+margin-bottom: 8px;
+}
+.offerings-icon {
+    fill: #7EB101;
+    background-color: #FEFEFE;
+    border-radius: 50%;
+
+    width: 100%;
+    height: 100%;
+
+}
+.offerings-subtitle {
+    color: #2C2C2C;
+font-size: 18px;
+line-height: 140%;
+
+
+margin-bottom: 16px;
+}
+.offerings-desc {
+    color: #2C2C2C;
+font-family: Roboto;
+font-size: 14px;
+line-height: 150%;
+}
+.offerings-btn {
+    color: #2C2C2C;
+font-family: Roboto;
+font-size: 13px;
+font-weight: 500;
+line-height: 150%;
+
+border-radius: 30px;
+border: 2px solid var(--dark-green, #7EB101);
+background: #FFF;
+min-width: 106px;
+padding: 10px 22px;
+
+cursor: pointer;
+}
+.offerings-btn:hover,
+.offerings-btn:focus {
+    border: #BBF330;
+    background-color: #BBF330;
+}
