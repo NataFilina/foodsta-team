@@ -1,0 +1,144 @@
+/* common styles */
+body {
+    background-color: #FFE550;
+}
+ul, ol {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+h1, h2, h3, p {
+    margin: 0;
+}
+
+img {
+    display: block;
+}
+
+.container {
+    width: 1280px;
+    padding: 99px 16px 79px 16px;
+    margin: 0 auto;
+}
+.offerings-container {
+    display: flex;
+    align-items: center;
+    gap: 90px;
+}
+.container-inform {
+
+}
+.offerings {
+}
+
+.offerings-container-image-first {
+    width: 550px;
+    height: 550px;
+    border-radius: 50%;
+    border: 5px solid rgba(255, 255, 255, 0.5);
+    position: relative;
+}
+.offerings-container-image-second {
+    width: 502px;
+    height: 502px;
+    border-radius: 50%;
+    background-color: #FEFEFE;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 24px;
+    left: 24px;
+}
+.offerings-container-image-third {
+    width: 252px;
+    height: 87px;
+    fill: radial-gradient(50.00% 50.00% at 50.00% 50.00%, #2F583F 0%, rgba(105, 105, 105, 0.00) 100%);
+    filter: blur(13px);
+    position: absolute;
+    bottom: 75px;
+    left: 155px;
+    flex-shrink: 0;
+}
+.offerings-image {
+    position: absolute;
+    bottom: 102px;
+    left: 84px;
+}
+.offerings-title {
+    color: #2C2C2C;
+    font-family: Roboto, sans-serif;
+    font-size: 42px;
+    line-height: 120%;
+
+    display: block;
+    max-width: 526px;
+    margin-bottom: 20px;
+}
+.offerings-text {
+    color: #2C2C2C;
+    font-family: Roboto, sans-serif;
+    line-height: 150%;
+
+    display: block;
+    max-width: 526px;
+    margin-bottom: 40px;
+}
+.offerings-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 67px;
+
+    margin-bottom: 32px;
+}
+.offerings-item {
+   
+}
+.svg-container {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 8px;
+    background-color: #FEFEFE;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.offerings-icon {
+    fill: #7EB101;
+}
+.offerings-subtitle {
+    color: #2C2C2C;
+    font-size: 18px;
+    line-height: 140%;
+
+
+    margin-bottom: 16px;
+}
+.offerings-desc {
+    color: #2C2C2C;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    line-height: 150%;
+    max-width: 264px;
+}
+.offerings-btn {
+    color: #2C2C2C;
+    font-family: Roboto, sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 150%;
+
+    border-radius: 30px;
+    border: 2px solid #7EB101;
+    background: #FFF;
+    min-width: 106px;
+    padding: 10px 22px;
+
+    cursor: pointer;
+}
+.offerings-btn:hover,
+.offerings-btn:focus {
+    border-color: #BBF330;
+    background-color: #BBF330;
+}
