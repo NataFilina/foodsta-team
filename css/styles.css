@@ -27,6 +27,44 @@ img {
     margin: 0 auto;
 }
 
+
+/* -------------------------HERO --------------------------*/
+
+
+.hero {
+    padding: 15px 0;
+}
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-content {
+    max-width: 511px;
+}
+
+.hero-title {
+    font-size: 48px;
+    line-height: 120%;
+    margin-bottom: 28px;
+}
+
+.hero-text {
+    margin-bottom: 46px;
+    line-height: 150%;
+}
+
+.header-btn {}
+
+.hero-btn {}
+
+.hero-img {
+    border: 26px solid var(--btn-hover);
+    border-radius: 50%;
+}
+
 .offerings-container {
     display: flex;
     align-items: center;
