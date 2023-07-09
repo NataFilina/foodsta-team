@@ -53,13 +53,24 @@ img {
   margin-bottom: 46px;
   line-height: 150%;
 }
+.hero-btn {
+}
+
+.hero-img {
+  border: 26px solid var(--btn-hover);
+  border-radius: 50%;
+}
 
 /* ---------------------------Header--------------------------- */
+.header {
+  box-shadow: 0px 4px 24px 0px rgba(105, 105, 105, 0.1);
+  background: #fefefe;
+}
 .header-container {
+  padding: 10px 0;
   display: flex;
   align-items: center;
-  background: #fefefe;
-  box-shadow: 0px 4px 24px 0px rgba(105, 105, 105, 0.1);
+  
 }
 
 .nav-list {
@@ -109,13 +120,7 @@ img {
   background-color: #ffe450;
 }
 
-.hero-btn {
-}
 
-.hero-img {
-  border: 26px solid var(--btn-hover);
-  border-radius: 50%;
-}
 
 .offerings-container {
   display: flex;
