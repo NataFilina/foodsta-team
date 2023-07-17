@@ -292,3 +292,81 @@ img {
 
 .favorites-image {
 }
+
+
+/* ------------------- Subscribe ------------------------ */
+
+.subscribe-section {
+  display: flex;
+  
+}
+
+.subscribe-container {
+  
+}
+
+.subscribe-title {
+  width: 656px;
+  color: #2C2C2C;
+  font-family: Roboto;
+  font-size: 42px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.subscribe-text {
+  width: 532px;
+  color: #2C2C2C;
+  font-family: Roboto;
+  line-height: 1.5;
+  margin-bottom: 24px;
+}
+
+.subscribe-form {}
+
+.subscribe-label {}
+
+.subscribe-input {
+  height: 42px;
+  min-width: 394px;
+  border-radius: 30px;
+  border: 2px solid #FFE550;
+  background: #FEFEFE;
+  height: 42px;
+  padding: 12px 57px 12px 12px;
+  font-family: Roboto;
+  font-size: 12px;
+  line-height: 1.5;
+  margin-right: 32px;
+}
+
+.subscribe-input::placeholder {
+  color: #505050;
+  
+}
+
+.subscribe-btn {
+  display: inline-flex;
+  min-width: 103px;
+  height: 42px;
+  padding: 11px 22px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+  border-radius: 30px;
+  background: #BBF330;
+  color: #2C2C2C;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.subscribe-btn:hover,
+.subscribe-btn:focus {
+  background-color: #ffe450;
+}
+
+.subscribe-image {}
+
