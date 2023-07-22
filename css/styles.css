@@ -298,7 +298,8 @@ img {
 
 .subscribe-section {
   display: flex;
-  
+  background-color: #FEFEFE;
+  padding-bottom: 64px;
 }
 
 .subscribe-container {
